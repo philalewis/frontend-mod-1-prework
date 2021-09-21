@@ -28,13 +28,18 @@ console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
-//let removeLast = animals.pop();
-//let addGorilla = animals.push("Gorilla");
-animals[animals.length - 1] = "Gorilla";
+
+function reassignToGorilla() {
+  animals[animals.length - 1] = "Gorilla";
+};
+// reassignToGorilla(); // Uncomment to call the function and reassign last element in the `animals` array to "Gorilla"
 console.log(animals);
-animals[animals.length - 1] = "Elephant";
+
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-let addZebra = animals.push("Zebra");
+function addZebra() {
+  animals[3] = "Zebra";
+};
+addZebra();
 console.log(animals);
 // YOU DO: Write code that will log the String "Elephant" in the animals array
 console.log(animals[2]);
@@ -59,7 +64,7 @@ console.log(foods);
 let removeBroccoli = foods.pop();
 console.log(foods);
 // YOU DO: Write code to add 3 new foods to the array.
-  // There are several ways to do this - choose whichever you'd like!
+// There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
 let addMeats = foods.push('Sausage', 'Chicken', 'Shrimp');
 console.log(foods);
@@ -122,7 +127,7 @@ if (percentBatteryLeft >= 15) {
 };
 
 // Use a conditional to determine whether all three conditions are met:
-// percentBatteryLeft must be equal to or greater than 15, hasCharger is true, and chargerType must be "car"
+// Conditional determining if all three conditions are met: percentBatteryLeft must be equal to or greater than 15, hasCharger must be true, and chargerType must be "car"
 if (percentBatteryLeft >= 15 && hasCharger && chargerType === "car") {
 // log the message if all three conditions are met
   console.log("You may call an Uber");
