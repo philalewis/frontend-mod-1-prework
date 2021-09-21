@@ -37,7 +37,7 @@ class Burrito {
     this.protein = protein;
   }
   addTopping(topping) {
-    this.toppings = this.toppings.push(topping);
+    this.toppings.push(topping);
   }
   // ADD CODE
 };
@@ -45,6 +45,7 @@ class Burrito {
 var simpleBurrito = new Burrito ("Ground beef", "Bean", ["Cheese", "Sour Cream"]);
 var regularBurrito = new Burrito ("Chicken", "Rice", ["Cheese", "Sour Cream", "Onions", "Cilantro"]);
 var loadedBurrito = new Burrito ("Steak", "Rice", ["Beans", "Cheese", "Sour Cream", "Onions", "Cilantro", "Pico", "Guacamole", "Jalepenos"]);
+console.log(loadedBurrito);
 
 loadedBurrito.changeProtein ("Chicken");
 console.log(loadedBurrito);
@@ -52,5 +53,5 @@ console.log(loadedBurrito);
 regularBurrito.addTopping("Pico");
 console.log(regularBurrito);
 
-simpleBurrito.addTopping("Pico");
+simpleBurrito.addTopping("Hot Sauce");
 console.log(simpleBurrito);
