@@ -16,34 +16,34 @@ Make sure to run the file with node in your command line.
   // You do not need any proerties at this time!!
 
 // Prompt 1: Dog
-// class Dog {
-//   breed = "Shepard";
-//   size = "Medium";
-// };
-// var roscoe = new Dog;
-// var booRadley = new Dog;
-// console.log(roscoe);
-// console.log(booRadley);
+class Dog {
+  breed = "Shepard";
+  size = "Medium";
+};
+var roscoe = new Dog;
+var booRadley = new Dog;
+console.log(roscoe);
+console.log(booRadley);
 
 // Prompt 2: Snack
-// class Snack {
-//   first = "Chips and Salsa";
-//   second = "Cheese and Crackers";
-// };
-// var spicy = new Snack;
-// var cheesy = new Snack;
-// console.log(spicy);
-// console.log(cheesy);
+class Snack {
+  first = "Chips and Salsa";
+  second = "Cheese and Crackers";
+};
+var spicy = new Snack;
+var cheesy = new Snack;
+console.log(spicy);
+console.log(cheesy);
 
 // Prompt 3: Shirt
-// class Shirt {
-//   casual = "T-shirt";
-//   nice = "Button-up";
-// };
-// var casual = new Shirt;
-// var nice = new Shirt;
-// console.log(casual);
-// console.log(nice);
+class Shirt {
+  casual = "T-shirt";
+  nice = "Button-up";
+};
+var casual = new Shirt;
+var nice = new Shirt;
+console.log(casual);
+console.log(nice);
 
 //-------------------
 // Part 2: Properties
@@ -57,37 +57,37 @@ Make sure to run the file with node in your command line.
   // Log that variable to the console.
 
 // // Prompt 1: Dog
-// class Dog {
-//   constructor() {
-//     this.breed = "Shepard";
-//     this.size = "Medium";
-//     this.color = "Brown";
-//   }
-// }
-// var roscoe = new Dog;
-// console.log(roscoe);
-//
-// // Prompt 2: Snack
-// class Snack {
-//   constructor() {
-//     this.dip = "Salsa";
-//     this.chipType = "Corn";
-//     this.altDip = "Guacamole";
-//   }
-// }
-// var chipsAndSalsa = new Snack;
-// console.log(chipsAndSalsa);
-//
-// // Prompt 3: Shirt
-// class Shirt {
-//   constructor() {
-//     this.casual = "T-shirt";
-//     this.work = "Polo";
-//     this.nice = "Button-up";
-//   }
-// }
-// var shirts = new Shirt;
-// console.log(shirts);
+class Puppers {
+  constructor() {
+    this.breed = "Shepard";
+    this.size = "Medium";
+    this.color = "Brown";
+  }
+}
+var roscoe = new Puppers;
+console.log(roscoe);
+
+// Prompt 2: Snack
+class ChipSnacks {
+  constructor() {
+    this.dip = "Salsa";
+    this.chipType = "Corn";
+    this.altDip = "Guacamole";
+  }
+}
+var chipsAndSalsa = new ChipSnacks;
+console.log(chipsAndSalsa);
+
+// Prompt 3: Shirt
+class Shirts {
+  constructor() {
+    this.casual = "T-shirt";
+    this.work = "Polo";
+    this.nice = "Button-up";
+  }
+}
+var shirts = new Shirts;
+console.log(shirts);
 //-------------------
 // Part 3: Dynamic Properties
 //-------------------
@@ -101,40 +101,40 @@ Make sure to run the file with node in your command line.
   // Log those variables to the console.
 
 // Prompt 1: Dog
-class Dog {
-  constructor(nme, brd, sze) {
-    this.name = nme;
-    this.breed = brd;
-    this.size = sze;
+class Doggy {
+  constructor(name, breed, size) {
+    this.name = name;
+    this.breed = breed;
+    this.size = size;
   }
 }
-var myDog = new Dog("Roscoe", "Sheep Dog", "Medium");
+var myDog = new Doggy("Roscoe", "Sheep Dog", "Medium");
 console.log(myDog);
-var caitlinsDog = new Dog("Boo Radley", "Retriever", "Large");
+var caitlinsDog = new Doggy("Boo Radley", "Retriever", "Large");
 console.log(caitlinsDog);
 
 // Prompt 2: Snack
-class Snack {
-  constructor(chp, dp, altDp) {
-    this.chipType = chp;
-    this.dip = dp;
-    this.altDip = altDp;
+class BiteToEat {
+  constructor(chip, dip, altDip) {
+    this.chipType = chip;
+    this.dip = dip;
+    this.altDip = altDip;
   }
 }
-var snackOne = new Snack ("Corn", "Salsa", "Guacamole");
+var snackOne = new BiteToEat ("Corn", "Salsa", "Guacamole");
 console.log(snackOne);
-var snackTwo = new Snack ("Fritos", "Bean", "French Onion");
+var snackTwo = new BiteToEat ("Fritos", "Bean", "French Onion");
 console.log(snackTwo);
 
 // Prompt 3: Shirt
-class Shirt {
-  constructor(typ, clr, prce) {
-    this.type = typ;
-    this.color = clr;
-    this.price = prce;
+class TopWear {
+  constructor(type, color, price) {
+    this.type = type;
+    this.color = color;
+    this.price = price;
   }
 }
-var workShirt = new Shirt ("Polo", "Blue", 50);
+var workShirt = new TopWear ("Polo", "Blue", 50);
 console.log(workShirt);
-var casualShirt = new Shirt ("T-shirt", "Green", 20);
+var casualShirt = new TopWear ("T-shirt", "Green", 20);
 console.log(casualShirt);
