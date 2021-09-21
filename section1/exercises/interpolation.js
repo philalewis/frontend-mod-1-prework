@@ -23,7 +23,7 @@ console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
-//The data type will be a string. Just like with concatenation, Javascript performs type coercion, which converts the number to a string so that it can be comined in the sentence.
+//The data type will be a string. Just like with concatenation, Javascript performs type coercion, which converts the number to a string so that it can be combined in the sentence.
 
 // YOU DO:
 // Write code that combines the variables below into a string that

@@ -23,7 +23,7 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!");
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
-// The console.log will return a string. This is becasue the console.log is trying ot return a string, so Javascript does type coercion and transplates the number to a string.
+// The console will log a string. This is becasue the console.log() is trying to return a string, so Javascript performs type coercion and converts the number to a string.
 
 // YOU DO:
 // Write code that combines the variables below into a string that
