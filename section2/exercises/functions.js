@@ -39,7 +39,7 @@ sayHello();
 // YOU DO: Write a function named greetMe that takes an argument, a String, of a name.
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
-function greetMe (name) {
+function greetMe(name) {
   console.log(name);
 };
 

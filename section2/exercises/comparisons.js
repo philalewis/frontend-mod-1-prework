@@ -52,7 +52,7 @@ you develop good habits that follow best practice, from now on, use the strict c
 console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
-console.log("Is numberStudents greater than or equal to 20:", numberStudents >= 20);
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
 console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
@@ -74,21 +74,22 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 console.log(4 < 9);
 //YOU DO: Explain.
-//This will evaluate to true, since 4 is less than 9
+// This evaluates whether 4 is less than 9. Logs `true` to the console.
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-//This will evauate to false, since the variable books is assigned a value of 3, which is less than 4
+// This evaluates whether 4 is less than the value assigned to the `books` variable. Logs `false` to the console.
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-//This will evaluate to true, since the value assigned to friends (6) is greater than the value assinged to siblings (2)
+// Assigns numeric values to the `friends` and `siblings` variables, then evaluates whether value assigned to friends is greater than the value assigned to siblings.
+// Logs `true` to the console
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-//This will evaluate to true, since the value assigned to attendees (9) is not equal to the value assinged to meals (8)
+// Assigns numeric values to the variables `attendees` and `meals`. Evaulates strict inequality and logs `true` to the console.
 
 //-------------------
 // PART 3: Logical Operators
@@ -110,16 +111,16 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-console.log(lovesToPlay && lovesTreats);
+console.log("Does the dog both love to play and love treats?", lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-console.log(lovesToPlay && lovesDogPark);
+console.log("Does the dog both love to play and love the dog park?", lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
-console.log(lovesToPlay || lovesDogPark);
+console.log("Does the dog love to play or love the dog park?", lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
-console.log(lovesToPlay && (age < 1));
+console.log("Is the dog a puppy who loves to play?", lovesToPlay && age < 1);
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
 // The final line of code evaluates to false, since the vairable age is assigned a value of 1, which is not less than 1. If I had used <=, the expression would evaluate to true.

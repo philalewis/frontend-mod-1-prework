@@ -10,14 +10,14 @@ Make sure to run the file with node in your command line.
 
 
 // EXAMPLE:Manipulate the variable 'weather' to see if you can print something other
-  // than 'coat'.
+// than 'coat'.
 
 var weather = 'snowy';
 // var weather = 'icy';
 // var weather = 'rainy';
 // var weather = 'sunny';
 // While working through this example, I would toggle which variable declaration is
-  // commented in/out and run the program in node several times to observe the output.
+// commented in/out and run the program in node several times to observe the output.
 
 if (weather == 'sunny') {
   console.log('sunscreen');
